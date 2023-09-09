@@ -42,6 +42,10 @@ make lint
 
 ![Lint Test](image-1.png)
 
+make test
+
+![Test Result](image-2.png)
+
 ## Reference
 
 1.  https://github.com/nogibjj/python-template
