@@ -1,25 +1,40 @@
 [![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Template for Python projects 
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+# Template for IDS706 weekly mini-projects 
 
-Things included are:
+## Goal
 
-* `Makefile`
+This is a repo template for duke course IDS706 Data Engineering Mini Project (Fall 2023). It contains:
 
-* `Pytest`
+.devcontainer includes a Dockerfile and devcontainer.json. The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
 
-* `pandas`
+workflows includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 
-* `Pylint`
+.gitignore is used to specify which files or directories should be excluded from version control when using Git.
 
-* `Dockerfile`
+Makefile is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
 
-* `GitHub copilot`
+requirements.txt is to specify the Python package dependencies (libraries and packages).
 
-* `jupyter` and `ipython` 
+test_main.py is a test file for main.py that can successfully run in IDEs.
 
-* A base set of libraries for devops and web
+Github Actions to run the Makefile as follows: make install, make test, make format, make lint.
 
-* `githubactions` 
+🌰 Example in the Github Codespace (such as make format)
+
+![Make Formate Img](image.png)
+
+
+## Preparation
+
+The section saved for later mini projects.
+
+## Run and Result
+
+This section is saved for later mini projects.
+
+## Reference
+
+1.  https://github.com/nogibjj/python-template
+2.  https://github.com/helenyjx/Rust-Powered-Calculator-Microservice-in-the-Cloud
 
