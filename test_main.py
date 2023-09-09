@@ -3,10 +3,7 @@ Test goes here
 
 """
 
-from mylib.calculator import add
-from mylib.calculator import subtract
-from mylib.calculator import multiply
-from mylib.calculator import divide
+from main import add, subtract, multiply, divide
 
 
 def test_add():
@@ -20,3 +17,10 @@ def test_multiply():
 
 def test_divide():
     assert divide(2, 1) == 2
+
+if __name__ == "__main__":
+    test_add()
+    test_subtract()
+    test_multiply()
+    test_divide()
+    print("Everything passed")

@@ -20,18 +20,27 @@ This is a repo template for duke course IDS706 Data Engineering Mini Project (Fa
 
 `Github Actions` to run the Makefile as follows: make install, make test, make format, make lint.
 
-🌰 Example in the Github Codespace (such as make format)
 
-![Make Formate Img](image.png)
 
 
 ## Preparation
 
-The section saved for later mini projects.
+1. Open in the Github codespaces
+2. Do simple test in the terminal
 
 ## Run and Result
 
 This section is saved for later mini projects.
+🌰 Example in the Github Codespace 
+
+make format
+
+![Make Formate Img](image.png)
+
+
+make lint
+
+![Lint Test](image-1.png)
 
 ## Reference
 
