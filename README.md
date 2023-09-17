@@ -4,6 +4,8 @@
 
 ## Goal
 
+> Duke University IDS 706 Weekly Mini Project 1
+
 This is a repo template for duke course IDS706 Data Engineering Mini Project (Fall 2023). It contains:
 
 `.devcontainer` includes a Dockerfile and devcontainer.json. The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
